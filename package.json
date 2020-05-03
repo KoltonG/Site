@@ -11,12 +11,14 @@
     "develop": "gatsby develop"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
     "@types/node": "^13.13.4",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
     "@types/react-helmet": "^5.0.15",
     "gatsby": "^2.21.9",
     "gatsby-link": "^2.4.0",
+    "gatsby-plugin-emotion": "^4.3.0",
     "gatsby-plugin-offline": "^3.2.0",
     "gatsby-plugin-react-helmet": "^3.3.0",
     "gatsby-plugin-typescript": "^2.4.0",

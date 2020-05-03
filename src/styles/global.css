@@ -1,9 +1,9 @@
 /* Imports */
-@import 'dank-mono.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
 
 body {
   margin: 0;
-  font-family: 'dm', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
 }
 
