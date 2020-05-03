@@ -10,6 +10,7 @@ import { css } from '@emotion/core'
 // Images
 import background from '../images/background.png'
 import name from '../images/name.png'
+import favicon from '../images/favicon.ico'
 
 /** Components */
 const Name = () => (
@@ -113,8 +114,12 @@ export default () => (
   <>
     {/* Meta */}
     <Helmet>
-      <title>Kolton</title>
-      <meta name="description" content="Helmet application" />
+      <title>Kolton Gagnon</title>
+      <meta
+        name="description"
+        content="Kolton is a software engineer with a passion of creating meaningful technologies that advance humanity and reduce inequality within our society."
+      />
+      <link rel="icon" type="image/png" href={favicon} sizes="256x256" />
     </Helmet>
     {/* Page Content */}
     <div
