@@ -1,43 +1,37 @@
-import * as React from 'react'
-import Link from 'gatsby-link'
+/** Imports */
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import background from '../images/background.png'
 
-// Please note that you can use https://github.com/dotansimha/graphql-code-generator
-// to generate all types from graphQL schema
-interface IndexPageProps {
-  data: {
-    site: {
-      siteMetadata: {
-        title: string
-      }
-    }
-  }
-}
-
-export default class extends React.Component<IndexPageProps, {}> {
-  constructor(props: IndexPageProps, context: any) {
-    super(props, context)
-  }
-  public render() {
-    return (
-      <div>
-        <h1>Hi people</h1>
-        <p>
-          Welcome to your new{' '}
-          <strong>{this.props.data.site.siteMetadata.title}</strong> site.
-        </p>
-        <p>Now go build something great.</p>
-        <Link to="/page-2/">Go to page 2</Link>
-      </div>
-    )
-  }
-}
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+/** Component */
+export default () => (
+  <>
+    {/* Meta */}
+    <Helmet>
+      <title>Kolton</title>
+      <meta name="description" content="Helmet application" />
+    </Helmet>
+    {/* Page Content */}
+    <div
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: 'cover',
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      <h1
+        style={{
+          width: '7vh',
+          wordBreak: 'break-all',
+          fontSize: '13vh',
+        }}
+      >
+        Kolton
+      </h1>
+    </div>
+  </>
+)

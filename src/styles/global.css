@@ -1,0 +1,12 @@
+/* Imports */
+@import 'dank-mono.css';
+
+body {
+  margin: 0;
+  font-family: 'dm', Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
