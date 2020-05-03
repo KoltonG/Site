@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "esModuleInterop": true, // To allow default exports
-    "sourceMap": true,
-    "noImplicitAny": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "esnext"],
     "module": "commonjs",
-    "target": "esnext",
-    "jsx": "react",
-    "lib": ["dom", "es2015", "es2017"]
+    "noEmit": true,
+    "noUnusedLocals": false,
+    "strict": true,
+    "target": "esnext"
   },
-  "include": ["./src/**/*"]
+  "exclude": ["node_modules", "public", ".cache"]
 }

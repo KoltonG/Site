@@ -1,13 +1,3 @@
-# gatsby-starter-typescript
-The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c27a60b-c3bf-47cf-9ee0-5857dfe3aab0/deploy-status)](https://app.netlify.com/sites/kolton/deploys)
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-starter-typescript https://github.com/haysclark/gatsby-starter-typescript
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haysclark/gatsby-starter-typescript)
+# Kolton.io
